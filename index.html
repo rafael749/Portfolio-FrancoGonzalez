@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/471047becf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <div class="contenedor contenedor--flex-center">
+                <div class="contacto">
+                    <a class="contacto__enlace" href="https://www.facebook.com/frangonzalez.dg/"><i class="fab fa-facebook-square"></i></a>
+                    <a class="contacto__enlace" href="https://www.instagram.com/frangonzalez.dg/"><i class="fab fa-instagram"></i></a>
+                    <a class="contacto__enlace" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="contacto__enlace" href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+
+                <div class="hero__perfil-img"><img src="assets/perfil/PERFIL 1.png" alt="Imagen de perfil"></div>
+
+                <h1 class="hero__encabezado">Franco González</h1>
+                <p class="hero__keywords">Graphic Designer, Community Manager</p>
+
+                <button id="btn_mode" class="btn-mode">
+                    <span>Dark Mode</span>
+                    <span>Ligth Mode</span>
+                </button>
+                <nav class="main-nav">
+                    <a data-action="mostrar_ocultar" data-seccion="perfil" class="main-nav__enlace " href="#perfil">Perfil</a>
+                    <a data-action="mostrar_ocultar" data-seccion="portafolio" class="main-nav__enlace main-nav__enlace--active" href="#portafolio">Portafolio</a>
+                    <a data-action="mostrar_ocultar" data-seccion="cv" class="main-nav__enlace" href="#cv">CV</a>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+    <main class="contenedor">
+        <section id="perfil" class="perfil">
+            <h2>Sobre mi</h2>
+            <div class="card">
+                <p class="card__txt card__txt--center">Tengo 32 años y desde los 18 años que soy un apasionado por el diseño gráfico. <br><br>
+
+                    Siempre me gustó dibujar y cuando terminé la secundaria entré a la carrera de Técnico en Diseño Gráfico en el Instituto Superior San Jorge en Santiago del Estero. <br><br>
+                    
+                    A los 20 años empecé a trabajar en una gráfica textil donde me enamoré del programa Corel Draw. ¡Trabajé varios años en ese lugar! <br> <br>
+                    
+                    Siempre me gustó probar cosas nuevas y desafiarme a más. Es por eso que conduje programas de radio, hice trabajos de periodismo, fui administrativo en una empresa, dicté cursos de Corel Draw y de diseño gráfico, fuí camarógrafo, administro, diseño y creo contenido en redes sociales para empresas (que es mi trabajo principal) y me hice un curso de diseño de interfaces en Platzi, donde aprendí a usar Figma.
+                    Lo que me abrió puertas para diseñar páginas web y apps. ¡Algo que me encanta!</p>
+            </div>
+
+        </section>
+        <section id="portafolio" class="portafolio show">
+            <h2>Trabajos Realizados</h2>
+            <nav class="nav-gallery card" id="categorias">
+                <a class="nav-gallery__enlace nav-gallery__enlace--active nav-gallery__enlace--w100" href="#">Todos</a>
+                <a class="nav-gallery__enlace" href="#">Flyers</a>
+                <a class="nav-gallery__enlace" href="#">Empresas</a>
+                <a class="nav-gallery__enlace" href="#">Iglesia</a>
+            </nav>
+            <div class="grid galeria">
+                <div class="item" data-categoria="iglesia">
+                    <div class="item-content">
+                        <a href="img/WhatsApp_Image_2020-12-08_at_00.52.56_zg3s9s.jpg" data-lightbox="galeria"><img src="img/WhatsApp_Image_2020-12-08_at_00.52.56_zg3s9s.jpg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="item" data-categoria="iglesia">
+                    <div class="item-content">
+                        <a href="img/AVIVA_ad1hrr.png" data-lightbox="galeria"><img src="img/AVIVA_ad1hrr.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="item" data-categoria="iglesia">
+                    <div class="item-content">
+                        <a href="img/dic2_rzp4ce.png" data-lightbox="galeria"><img src="img/dic2_rzp4ce.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="item" data-categoria="iglesia">
+                    <div class="item-content">
+                        <a href="img/ENCENDIDOS_PARTE2_ohhfb6.png" data-lightbox="galeria"><img src="img/ENCENDIDOS_PARTE2_ohhfb6.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="item" data-categoria="iglesia">
+                    <div class="item-content">
+                        <a href="img/ESPIRITU_SANTO_nwfkqh.png" data-lightbox="galeria"><img src="img/ESPIRITU_SANTO_nwfkqh.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="item" data-categoria="iglesia">
+                    <div class="item-content">
+                        <a href="img/fds2_uvi9xy.png" data-lightbox="galeria"><img src="img/fds2_uvi9xy.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="item" data-categoria="iglesia">
+                    <div class="item-content">
+                        <a href="img/GRACIA_owsghy.png" data-lightbox="galeria"><img src="img/GRACIA_owsghy.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="item" data-categoria="iglesia">
+                    <div class="item-content">
+                        <a href="img/HOY_i1ewzt.png" data-lightbox="galeria"><img src="img/HOY_i1ewzt.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="item" data-categoria="flyers">
+                    <div class="item-content">
+                        <a href="img/1_koghxz.png" data-lightbox="galeria"><img src="img/1_koghxz.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="item" data-categoria="empresas">
+                    <div class="item-content">
+                        <a href="img/digital-illustrator-3242713_1920.jpg" data-lightbox="galeria"><img src="img/digital-illustrator-3242713_1920.jpg" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="item" data-categoria="empresas">
+                    <div class="item-content">
+                        <a href="img/CACHITO_Y_JOSE_suanov.png" data-lightbox="galeria"><img src="img/CACHITO_Y_JOSE_suanov.png" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="item" data-categoria="flyers">
+                    <div class="item-content">
+                        <a href="img/2_exgyu0.png" data-lightbox="galeria"><img src="img/2_exgyu0.png" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="item" data-categoria="empresas">
+                    <div class="item-content">
+                        <a href="img/digital-roses-2032705_1920.png" data-lightbox="galeria"><img src="img/digital-roses-2032705_1920.png" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="item" data-categoria="empresas">
+                    <div class="item-content">
+                        <a href="img/cereales_3_arroyos_b7hl6x.png" data-lightbox="galeria"><img src="img/cereales_3_arroyos_b7hl6x.png" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="item" data-categoria="empresas">
+                    <div class="item-content">
+                        <a href="img/cereales_3_arroyos_b7hl6x.png" data-lightbox="galeria"><img src="img/DELIVERY_unegtl.png" alt=""></a>
+
+                    </div>
+                </div>
+
+
+                <div class="item" data-categoria="empresas">
+                    <div class="item-content">
+                        <a href="img/prepizzas_kuki_2_hkspqq.png" data-lightbox="galeria"><img src="img/prepizzas_kuki_2_hkspqq.png" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="item" data-categoria="empresas">
+                    <div class="item-content">
+                        <a href="img/RUN_2_qw2vr5.png" data-lightbox="galeria"><img src="img/RUN_2_qw2vr5.png" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="item" data-categoria="empresas">
+                    <div class="item-content">
+                        <a href="img/SANCOR_BEBE_1_qhcato.png" data-lightbox="galeria"><img src="img/SANCOR_BEBE_1_qhcato.png" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="item" data-categoria="empresas">
+                    <div class="item-content">
+                        <a href="img/yerba_mate_feed_1_sdjscf.png" data-lightbox="galeria"><img src="img/yerba_mate_feed_1_sdjscf.png" alt=""></a>
+
+                    </div>
+                </div>
+
+                <div class="item" data-categoria="flyers">
+                    <div class="item-content">
+                        <a href="img/3_nnp192.png" data-lightbox="galeria"><img src="img/3_nnp192.png" alt=""></a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="cv" class="cv">
+            <h2>Curriculum Vitae</h2>
+            <div class="cv-container">
+                <div class="cv-container__bloque">
+                    <div class="seccion-cv card">
+                        <h3 class="seccion-cv__encabezado">Educación</h3>
+                        <ul>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Técnico en Diseño Gráfico en el Instituto Superior San Jorge en Santiago del Estero</p>
+                                    <p class="elemento-cv__footer no-margin">2013 - 2017</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">diseño de Interfaces (UI) - Platzi</p>
+                                    <p class="elemento-cv__footer no-margin">2020</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <!--seccion-cv-->
+                    <div class="seccion-cv card">
+                        <h3 class="seccion-cv__encabezado">Experiencia</h3>
+                        <ul>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">3T ESTAMPADOS (gráfica textil)
+                                        Diseñador Gráfico y atención al público.</p>
+                                    <p class="elemento-cv__footer no-margin">2009 - 2021</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">S.E.S. Santiago del Estero Surtidores
+                                        Empleado Administrativo</p>
+                                    <p class="elemento-cv__footer no-margin">2019-2020</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Manejo y gestión de redes sociales
+                                        FC Santiago distribuidora
+                                        instagram/ @fcsantiagotudistribuidora</p>
+                                    <p class="elemento-cv__footer no-margin">2019 - 2020</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Manejo y gestión de redes sociales
+                                        FC Santiago distribuidora
+                                        instagram/ @fcsantiagotudistribuidora</p>
+                                    <p class="elemento-cv__footer no-margin">2019 - 2020</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">SEÑALARTE (cartelería)
+                                        Diseñador Gráfico</p>
+                                    <p class="elemento-cv__footer no-margin">2015 - 2015</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!--seccion-cv-->
+                </div>
+                <div class="cv-container__bloque">
+                    <div class="seccion-cv card">
+                        <h3 class="seccion-cv__encabezado">Habilidades</h3>
+                        <ul>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Corel Draw</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Figma</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Illustartor</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Photoshop</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Adobe After effects</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Adobe Premiere Pro</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <!--seccion-cv-->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="main-footer contenedor contenedor--flex-center">
+            <div class="contacto">
+                <a class="contacto__enlace" href="https://www.facebook.com/frangonzalez.dg/"><i class="fab fa-facebook-square"></i></a>
+                <a class="contacto__enlace" href="https://www.instagram.com/frangonzalez.dg/"><i class="fab fa-instagram"></i></a>
+                <a class="contacto__enlace" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="contacto__enlace" href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="copy">
+                <p>Copyright © Franco González. All Rights Reserved. Powered By Rafael Miranda</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
