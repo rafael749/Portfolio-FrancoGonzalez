@@ -68,7 +68,6 @@ li {
 
 .hero {
     background-color: dodgerblue;
-    background-image: url(../img/monterrey-555080_1920.jpg);
     background-position: 50% 60%;
     background-size: cover;
     text-align: center;
@@ -80,7 +79,6 @@ li {
 
 body.dark-mode .hero {
     background-color: #4e4e4e;
-    background-image: url(../img/monterrey-555080_1920.jpg);
 }
 
 .hero .contacto {
@@ -353,4 +351,12 @@ body.dark-mode>footer {
 
 .copy p {
     font-size: 1.5rem;
+}
+
+.copy p a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(189, 188, 188);
+    font-size: 1.5rem;
+
 }
